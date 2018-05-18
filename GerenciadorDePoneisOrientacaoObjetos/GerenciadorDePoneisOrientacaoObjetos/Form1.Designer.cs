@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.txtApelido = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -45,9 +44,11 @@
             this.label6 = new System.Windows.Forms.Label();
             this.rtbDescricao = new System.Windows.Forms.RichTextBox();
             this.btnCadastrar = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.dgvPoneis = new System.Windows.Forms.DataGridView();
+            this.ColumnApelido = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnRaca = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.tbNivelFofura)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPoneis)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -233,15 +234,33 @@
             this.btnCadastrar.UseVisualStyleBackColor = false;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
-            // pictureBox1
+            // dgvPoneis
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(586, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(379, 380);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
+            this.dgvPoneis.AllowUserToAddRows = false;
+            this.dgvPoneis.AllowUserToDeleteRows = false;
+            this.dgvPoneis.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPoneis.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ColumnApelido,
+            this.ColumnRaca});
+            this.dgvPoneis.Location = new System.Drawing.Point(597, 19);
+            this.dgvPoneis.Name = "dgvPoneis";
+            this.dgvPoneis.ReadOnly = true;
+            this.dgvPoneis.Size = new System.Drawing.Size(385, 364);
+            this.dgvPoneis.TabIndex = 16;
+            // 
+            // ColumnApelido
+            // 
+            this.ColumnApelido.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnApelido.HeaderText = "Apelido";
+            this.ColumnApelido.Name = "ColumnApelido";
+            this.ColumnApelido.ReadOnly = true;
+            // 
+            // ColumnRaca
+            // 
+            this.ColumnRaca.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColumnRaca.HeaderText = "Raça";
+            this.ColumnRaca.Name = "ColumnRaca";
+            this.ColumnRaca.ReadOnly = true;
             // 
             // Form1
             // 
@@ -249,7 +268,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkMagenta;
             this.ClientSize = new System.Drawing.Size(1010, 415);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.dgvPoneis);
             this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.rtbDescricao);
             this.Controls.Add(this.label6);
@@ -269,7 +288,7 @@
             this.Name = "Form1";
             this.Text = "CadastrarFofuras";
             ((System.ComponentModel.ISupportInitialize)(this.tbNivelFofura)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPoneis)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -293,7 +312,9 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.RichTextBox rtbDescricao;
         private System.Windows.Forms.Button btnCadastrar;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.DataGridView dgvPoneis;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnApelido;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnRaca;
     }
 }
 

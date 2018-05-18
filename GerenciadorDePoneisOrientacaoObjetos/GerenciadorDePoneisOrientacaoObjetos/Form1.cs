@@ -13,7 +13,7 @@ namespace GerenciadorDePoneisOrientacaoObjetos
     public partial class Form1 : Form
     {
 
-
+        List<Ponei> poneis = new List<Ponei>();
 
 
 
@@ -33,9 +33,10 @@ namespace GerenciadorDePoneisOrientacaoObjetos
             ponei.VendaVivo = rbVivo.Checked;
             ponei.Descricao = rtbDescricao.Text;
             ponei.Raca = cbRaca.SelectedItem.ToString();
-
-
-
+            poneis.Add(ponei);
+            dgvPoneis.Rows.Add(new Object[]{
+            ponei.Apelido, 
+            ponei.Raca});
         }
     }
 }
