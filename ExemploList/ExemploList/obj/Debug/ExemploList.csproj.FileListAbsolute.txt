@@ -1,0 +1,10 @@
+C:\Users\104962\Documents\ExemploList\ExemploList\bin\Debug\ExemploList.exe.config
+C:\Users\104962\Documents\ExemploList\ExemploList\bin\Debug\ExemploList.exe
+C:\Users\104962\Documents\ExemploList\ExemploList\bin\Debug\ExemploList.pdb
+C:\Users\104962\Documents\ExemploList\ExemploList\obj\Debug\ExemploList.csprojResolveAssemblyReference.cache
+C:\Users\104962\Documents\ExemploList\ExemploList\obj\Debug\ExemploList.Exemplo01.resources
+C:\Users\104962\Documents\ExemploList\ExemploList\obj\Debug\ExemploList.Form1.resources
+C:\Users\104962\Documents\ExemploList\ExemploList\obj\Debug\ExemploList.Properties.Resources.resources
+C:\Users\104962\Documents\ExemploList\ExemploList\obj\Debug\ExemploList.csproj.GenerateResource.Cache
+C:\Users\104962\Documents\ExemploList\ExemploList\obj\Debug\ExemploList.exe
+C:\Users\104962\Documents\ExemploList\ExemploList\obj\Debug\ExemploList.pdb
