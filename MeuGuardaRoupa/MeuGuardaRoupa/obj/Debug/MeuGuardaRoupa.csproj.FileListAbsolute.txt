@@ -4,3 +4,13 @@ C:\Users\104962\Documents\MeuGuardaRoupa\MeuGuardaRoupa\obj\Debug\MeuGuardaRoupa
 C:\Users\104962\Documents\MeuGuardaRoupa\MeuGuardaRoupa\obj\Debug\MeuGuardaRoupa.ListaDePeca.resources
 C:\Users\104962\Documents\MeuGuardaRoupa\MeuGuardaRoupa\obj\Debug\MeuGuardaRoupa.Properties.Resources.resources
 C:\Users\104962\Documents\MeuGuardaRoupa\MeuGuardaRoupa\obj\Debug\MeuGuardaRoupa.csproj.GenerateResource.Cache
+C:\Users\104962\Documents\GitHub\ExemploList\MeuGuardaRoupa\MeuGuardaRoupa\bin\Debug\MeuGuardaRoupa.exe.config
+C:\Users\104962\Documents\GitHub\ExemploList\MeuGuardaRoupa\MeuGuardaRoupa\obj\Debug\MeuGuardaRoupa.csprojResolveAssemblyReference.cache
+C:\Users\104962\Documents\GitHub\ExemploList\MeuGuardaRoupa\MeuGuardaRoupa\obj\Debug\MeuGuardaRoupa.CadastroPeca.resources
+C:\Users\104962\Documents\GitHub\ExemploList\MeuGuardaRoupa\MeuGuardaRoupa\obj\Debug\MeuGuardaRoupa.ListaDePeca.resources
+C:\Users\104962\Documents\GitHub\ExemploList\MeuGuardaRoupa\MeuGuardaRoupa\obj\Debug\MeuGuardaRoupa.Properties.Resources.resources
+C:\Users\104962\Documents\GitHub\ExemploList\MeuGuardaRoupa\MeuGuardaRoupa\obj\Debug\MeuGuardaRoupa.csproj.GenerateResource.Cache
+C:\Users\104962\Documents\GitHub\ExemploList\MeuGuardaRoupa\MeuGuardaRoupa\bin\Debug\MeuGuardaRoupa.exe
+C:\Users\104962\Documents\GitHub\ExemploList\MeuGuardaRoupa\MeuGuardaRoupa\bin\Debug\MeuGuardaRoupa.pdb
+C:\Users\104962\Documents\GitHub\ExemploList\MeuGuardaRoupa\MeuGuardaRoupa\obj\Debug\MeuGuardaRoupa.exe
+C:\Users\104962\Documents\GitHub\ExemploList\MeuGuardaRoupa\MeuGuardaRoupa\obj\Debug\MeuGuardaRoupa.pdb

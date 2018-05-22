@@ -141,6 +141,7 @@
             // 
             // cbTipo
             // 
+            this.cbTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbTipo.FormattingEnabled = true;
             this.cbTipo.Items.AddRange(new object[] {
             "Boné",
@@ -159,6 +160,7 @@
             // 
             // cbTamanho
             // 
+            this.cbTamanho.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbTamanho.FormattingEnabled = true;
             this.cbTamanho.Location = new System.Drawing.Point(122, 138);
             this.cbTamanho.Name = "cbTamanho";
@@ -167,6 +169,7 @@
             // 
             // cbMarca
             // 
+            this.cbMarca.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbMarca.FormattingEnabled = true;
             this.cbMarca.Items.AddRange(new object[] {
             "Adidas",
@@ -184,6 +187,7 @@
             // 
             // cbCor
             // 
+            this.cbCor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbCor.FormattingEnabled = true;
             this.cbCor.Items.AddRange(new object[] {
             "Azul",
@@ -200,6 +204,7 @@
             // 
             // cbTecido
             // 
+            this.cbTecido.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbTecido.FormattingEnabled = true;
             this.cbTecido.Items.AddRange(new object[] {
             "Malha",

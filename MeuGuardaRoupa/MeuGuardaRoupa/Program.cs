@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace MeuGuardaRoupa
 {
-    public static class Program
+    static class Program
     {
         public static List<Peca> pecas = new List<Peca>();
         /// <summary>
