@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MeuGuardaRoupa
 {
-    class Peca
+    public class Peca
     {
         public string Nome;
         public string Tipo;

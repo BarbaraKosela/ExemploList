@@ -137,7 +137,7 @@
             this.txtNome.Location = new System.Drawing.Point(93, 51);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(258, 20);
-            this.txtNome.TabIndex = 8;
+            this.txtNome.TabIndex = 1;
             // 
             // cbTipo
             // 
@@ -156,7 +156,7 @@
             this.cbTipo.Location = new System.Drawing.Point(82, 95);
             this.cbTipo.Name = "cbTipo";
             this.cbTipo.Size = new System.Drawing.Size(269, 21);
-            this.cbTipo.TabIndex = 9;
+            this.cbTipo.TabIndex = 2;
             // 
             // cbTamanho
             // 
@@ -165,7 +165,7 @@
             this.cbTamanho.Location = new System.Drawing.Point(122, 138);
             this.cbTamanho.Name = "cbTamanho";
             this.cbTamanho.Size = new System.Drawing.Size(229, 21);
-            this.cbTamanho.TabIndex = 10;
+            this.cbTamanho.TabIndex = 3;
             // 
             // cbMarca
             // 
@@ -176,14 +176,14 @@
             "Nike",
             "Lacoste",
             "Zara",
-            "Pollo",
+            "Polo",
             "Dudalina",
             "Vitor Hugo",
             "Dolce Gabbana"});
             this.cbMarca.Location = new System.Drawing.Point(439, 50);
             this.cbMarca.Name = "cbMarca";
             this.cbMarca.Size = new System.Drawing.Size(262, 21);
-            this.cbMarca.TabIndex = 11;
+            this.cbMarca.TabIndex = 5;
             // 
             // cbCor
             // 
@@ -200,7 +200,7 @@
             this.cbCor.Location = new System.Drawing.Point(416, 95);
             this.cbCor.Name = "cbCor";
             this.cbCor.Size = new System.Drawing.Size(285, 21);
-            this.cbCor.TabIndex = 12;
+            this.cbCor.TabIndex = 6;
             // 
             // cbTecido
             // 
@@ -216,7 +216,7 @@
             this.cbTecido.Location = new System.Drawing.Point(439, 138);
             this.cbTecido.Name = "cbTecido";
             this.cbTecido.Size = new System.Drawing.Size(262, 21);
-            this.cbTecido.TabIndex = 13;
+            this.cbTecido.TabIndex = 7;
             // 
             // dtpData
             // 
@@ -224,7 +224,7 @@
             this.dtpData.Location = new System.Drawing.Point(514, 179);
             this.dtpData.Name = "dtpData";
             this.dtpData.Size = new System.Drawing.Size(187, 20);
-            this.dtpData.TabIndex = 14;
+            this.dtpData.TabIndex = 8;
             // 
             // label9
             // 
@@ -241,7 +241,7 @@
             this.txtValor.Location = new System.Drawing.Point(93, 179);
             this.txtValor.Name = "txtValor";
             this.txtValor.Size = new System.Drawing.Size(258, 20);
-            this.txtValor.TabIndex = 16;
+            this.txtValor.TabIndex = 4;
             // 
             // rbStatusAtivo
             // 
@@ -251,7 +251,7 @@
             this.rbStatusAtivo.Location = new System.Drawing.Point(162, 226);
             this.rbStatusAtivo.Name = "rbStatusAtivo";
             this.rbStatusAtivo.Size = new System.Drawing.Size(64, 19);
-            this.rbStatusAtivo.TabIndex = 17;
+            this.rbStatusAtivo.TabIndex = 9;
             this.rbStatusAtivo.TabStop = true;
             this.rbStatusAtivo.Text = "ATIVO";
             this.rbStatusAtivo.UseVisualStyleBackColor = true;
@@ -263,7 +263,7 @@
             this.rbStatusInativo.Location = new System.Drawing.Point(266, 226);
             this.rbStatusInativo.Name = "rbStatusInativo";
             this.rbStatusInativo.Size = new System.Drawing.Size(78, 19);
-            this.rbStatusInativo.TabIndex = 18;
+            this.rbStatusInativo.TabIndex = 10;
             this.rbStatusInativo.Text = "INATIVO";
             this.rbStatusInativo.UseVisualStyleBackColor = true;
             // 
@@ -279,7 +279,7 @@
             this.btnSalvar.Location = new System.Drawing.Point(561, 226);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(140, 48);
-            this.btnSalvar.TabIndex = 19;
+            this.btnSalvar.TabIndex = 12;
             this.btnSalvar.Text = "    SALVAR";
             this.btnSalvar.UseVisualStyleBackColor = false;
             this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
@@ -294,11 +294,12 @@
             this.btnCancelar.Location = new System.Drawing.Point(416, 226);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(139, 48);
-            this.btnCancelar.TabIndex = 20;
+            this.btnCancelar.TabIndex = 11;
             this.btnCancelar.Text = "CANCELAR";
             this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCancelar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCancelar.UseVisualStyleBackColor = false;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // CadastroPeca
             // 

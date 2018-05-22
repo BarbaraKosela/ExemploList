@@ -94,6 +94,7 @@
             this.btnEditar.TabIndex = 4;
             this.btnEditar.Text = "     EDITAR";
             this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // btnApagar
             // 
@@ -109,6 +110,7 @@
             this.btnApagar.TabIndex = 5;
             this.btnApagar.Text = "      APAGAR";
             this.btnApagar.UseVisualStyleBackColor = false;
+            this.btnApagar.Click += new System.EventHandler(this.btnApagar_Click);
             // 
             // ColumnNome
             // 

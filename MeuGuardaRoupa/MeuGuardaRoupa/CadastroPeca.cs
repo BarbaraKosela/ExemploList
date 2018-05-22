@@ -12,6 +12,9 @@ namespace MeuGuardaRoupa
 {
     public partial class CadastroPeca : Form
     {
+        private int posicao = -1;
+        
+
         public CadastroPeca()
         {
             InitializeComponent();
@@ -19,6 +22,21 @@ namespace MeuGuardaRoupa
             {
                 cbTamanho.Items.Add(i);
             }
+        }
+
+        public CadastroPeca(Peca peca, int posicao)
+        {
+            InitializeComponent();
+            this.posicao = posicao;
+            txtNome.Text = peca.Nome;
+            txtValor.Text = Convert.ToString(peca.Valor);
+            cbCor.SelectedItem = peca.Cor;
+            cbMarca.SelectedItem = peca.Marca;
+            cbTamanho.SelectedItem = peca.Tamanho;
+            cbTecido.SelectedItem = peca.Tecido;
+            cbTipo.SelectedItem = peca.Tipo;
+            dtpData.Value = peca.DataCompra;
+
         }
 
         private void btnSalvar_Click(object sender, EventArgs e)
@@ -102,8 +120,36 @@ namespace MeuGuardaRoupa
                 DataCompra = dtpData.Value
 
             };
+            if (posicao >= 0)
+            {
+                Program.pecas[posicao] = peca;
+                MessageBox.Show("Cadastro realizado com sucesso");
+            }
 
-            Program.pecas.Add(peca); 
+            else
+            {
+            Program.pecas.Add(peca);
+            MessageBox.Show("Cadastro realizado com sucesso");
+
+            }
+            LimparCampos();
+        }
+
+        private void LimparCampos()
+        {
+            txtNome.Text = "";
+            txtValor.Text = "";
+            cbCor.SelectedIndex = -1;
+            cbMarca.SelectedIndex = -1;
+            cbTecido.SelectedIndex = -1;
+            cbTamanho.SelectedIndex = -1;
+            cbTipo.SelectedIndex = -1;
+            dtpData.Value = DateTime.Now;
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Dispose();
         }
     }
 }
