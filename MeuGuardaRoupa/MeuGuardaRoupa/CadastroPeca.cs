@@ -32,10 +32,11 @@ namespace MeuGuardaRoupa
             txtValor.Text = Convert.ToString(peca.Valor);
             cbCor.SelectedItem = peca.Cor;
             cbMarca.SelectedItem = peca.Marca;
-            cbTamanho.SelectedItem = peca.Tamanho;
+            cbTamanho.Text = peca.Tamanho;
             cbTecido.SelectedItem = peca.Tecido;
             cbTipo.SelectedItem = peca.Tipo;
             dtpData.Value = peca.DataCompra;
+            
 
         }
 
@@ -117,7 +118,8 @@ namespace MeuGuardaRoupa
                 Tipo = cbTipo.SelectedItem.ToString(),
                 Valor = Convert.ToDouble(txtValor.Text),
                 Tecido = cbTecido.SelectedItem.ToString(),
-                DataCompra = dtpData.Value
+                DataCompra = dtpData.Value,
+                Ativo = rbStatusAtivo.Checked
 
             };
             if (posicao >= 0)
